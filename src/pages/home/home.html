@@ -1,0 +1,79 @@
+<ion-header>
+  <ion-navbar class="navbar">
+    <ion-buttons left>
+      <button ion-button>
+        <img class="logo-header" src="../../assets/imgs/logo_header.png"/>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      Hylian-Coffee
+    </ion-title>
+    <ion-buttons right>
+        <button ion-button (click)="GoHistory()">
+          <img class="logo-header" src="../../assets/imgs/Menu-Hamburgur.png"/>
+        </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color:lightgray">
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <div class="name-bakery">Cheese Cake</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/cheescake.jpg">
+        </div>
+        <div class="price-bakery">&#3647; 50</div>
+      </ion-col>
+      <ion-col col-6>
+        <div class="name-bakery">Donut</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/donut.JPG">
+        </div>
+        <div class="price-bakery">&#3647; 30</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <div class="name-bakery">Hot Coffee</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/hotcoffee.jpg">
+        </div>
+        <div class="price-bakery">&#3647; 30</div>
+      </ion-col>
+      <ion-col col-6>
+        <div class="name-bakery">Pie</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/pie.jpg">
+        </div>
+        <div class="price-bakery">&#3647; 50</div>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-6>
+        <div class="name-bakery">Crosissant</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/croissant.jpg">
+        </div>
+        <div class="price-bakery">&#3647; 50</div>
+      </ion-col>
+      <ion-col col-6>
+        <div class="name-bakery">Hamburgur</div>
+        <div>
+          <img class="image-bakery" src="../../assets/imgs/hamburgur.jpg">
+        </div>
+        <div class="price-bakery">&#3647; 80</div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-grid no-padding class="order-bar">
+    <ion-row>
+      <ion-col col-4 style="padding:15px" class="order-qty">2 รายการ</ion-col>
+      <ion-col col-4 style="padding:15px" class="order-price">&#3647; 100</ion-col>
+      <ion-col col-4>
+        <button ion-button class="order-button" (click)="GoPayment()">สั่งซื้อ</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

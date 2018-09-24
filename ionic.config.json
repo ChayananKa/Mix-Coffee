@@ -1,0 +1,8 @@
+{
+  "name": "mix-coffee",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "1e473990"
+}

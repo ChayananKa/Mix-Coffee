@@ -1,0 +1,54 @@
+page-home {
+    .image-bakery{
+        width: 150px;
+        height: 100px;
+    }
+
+    .name-bakery{
+        text-align: center;
+        background-color: white;
+    }
+
+    .price-bakery{
+        text-align: center;
+        background-color: black;
+        color: yellow;
+    }
+
+    .order-bar{
+        position: fixed;
+        height: 50px;
+        background-color: black;
+        left:0px;
+        right:0px;
+        bottom:0px;
+    }
+
+    .order-qty{
+        text-align: right;
+        color: white;
+        text-align: right;
+    }
+
+    .order-price{
+        color:skyblue;
+        text-align: center;
+    }
+
+    .order-button{
+        background-color: orange;
+        color: white;
+        height: 50px;
+        width: 100%;
+    }
+
+    .logo-header{
+        width: 40px;
+    }
+
+    .navbar{
+        height: 50px;
+    }
+
+    
+}

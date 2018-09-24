@@ -1,0 +1,35 @@
+<!--
+  Generated template for the RadioPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>radio</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+   <ion-list radio-group [(ngModel)]="ItemSelected">
+    <ion-list-header>
+      Football Club
+    </ion-list-header>
+    <ion-item>
+      <ion-label>Arsenal</ion-label>
+      <ion-radio checked="true" value="Arsenal"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Manchester United</ion-label>
+      <ion-radio checked="false" value="Manchester United"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Liverpool</ion-label>
+      <ion-radio checked="false" value="Liverpool"></ion-radio>
+    </ion-item>
+  </ion-list>
+  <button ion-button (click)="Onclick(ItemSelected)">Submit</button>
+</ion-content>
